@@ -1,0 +1,233 @@
+/* Estilos generales para toda la pagina*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Estilos del header */
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para el menú */
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos para cada ítem del menú */
+.menu-item {
+  display: inline;
+  margin: 0 15px;
+}
+
+/* Estilos para los enlaces del menú */
+.menu-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilos hover para los enlaces */
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Section */
+#section_titulo {
+  text-align: center;
+}
+
+#section_titulo h1 {
+  font-size: 2.5em;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+#section_titulo h4 {
+  font-size: 1.2em;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+#section_titulo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Ingredientes Section */
+#section_ingredientes {
+  margin-top: 40px;
+}
+
+#section_ingredientes h3 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+#section_ingredientes ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+#section_ingredientes ul li {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+/* Elaboracion Section */
+#section_elaboracion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#section_elaboracion h3 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+#section_elaboracion ol {
+  margin-left: 20px;
+}
+
+#section_elaboracion ol li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+#section_elaboracion li b {
+  color: #4CAF50;
+}
+
+/* Tabla Nutricional Section */
+#section_tabla_nutricional {
+  margin-top: 40px;
+}
+
+#section_tabla_nutricional h3 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  margin-top: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ARTICLE SECTION */
+.article_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la imagen */
+.article_container img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Estilo general para el carrusel */
+#section_carrusel {
+  width: 100%;
+  max-width: 3000px;
+  max-height: 1000px;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+}
+
+/* Contenedor del carrusel */
+.container_carrusel {
+  display: flex;
+  width: 200%;
+  animation: slide 6s infinite;
+}
+
+/* Estilo de las imágenes del carrusel */
+.items_carrusel {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Estilo general del footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+

@@ -1,0 +1,114 @@
+/* Estilos generales para toda la pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+/* Estilos del header */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+  
+  /* Estilos para el menú */
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+  /* Estilos para cada ítem del menú */
+.menu-item {
+  display: inline;
+    margin: 0 15px;
+}
+  
+  /* Estilos para los enlaces del menú */
+.menu-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+  /* Estilos hover para los enlaces */
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Estilo del contenedor del formulario */
+#section_formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+  /* Estilo general del formulario */
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+  
+  /* Estilo para los grupos de formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+  
+  /* Estilo para las etiquetas de cada campo */
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+  
+  /* Estilo para los campos de texto */
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+  /* Estilo para el botón de envío */
+.btn-enviar {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+  
+  /* Efecto hover para el botón de envío */
+.btn-enviar:hover {
+    background-color: #45a049;
+}
+
+  /* Estilo general del footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+  
