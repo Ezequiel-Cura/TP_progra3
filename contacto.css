@@ -12,6 +12,10 @@ body {
   line-height: 1.6;
 }
 
+/* TUVE QUE SER MUY PRECISO CON LOS PIXELES SINO EL FOOTER ME QUEDABA MAL */
+main{
+    height: 714px;
+}
 
 /* Estilos del header */
 header {
